@@ -14,12 +14,32 @@
     <div class="MainTitle">
         <div class="MainTitle_left">
             <img src="/Resource/rabbithole_logo.NQpXfqsU_Z2osd19.webp" alt="">
-            <p>모두를 위한 <br> 살아있는, <br> 영어교육.</p>
+            <p>모두를 위한 <br> 살아있는, <br> 영어 교육.</p>
         </div>
         <div class="MainTitle_right">
             <img src="/Resource/meta-quest-3-pad.OPcbyAWU_Z2lkmrq.webp" alt="">
         </div>
         <img src="" alt="">
+    </div>
+    <div class="bottom">
+      <div id="div_scroll">
+        <div class="bottom_nav">
+          <img src="Resource/rabbithole_logo.NQpXfqsU_Z2osd19.webp" alt="">
+          <div class="nav_right">
+              <p>학습 기능</p>
+              <p>관리 기능</p>
+              <p>제품 자료</p>
+          </div>
+      </div>
+      </div>
+        
+        <div class="bottom_body">
+
+        </div>
+    </div>
+
+    <div id="today_collect_btn">
+        <p>적용될 거</p>
     </div>
     <script>
         const canvas = document.getElementById('starField');
@@ -36,7 +56,7 @@ class Star {
     this.x = Math.random() * canvas.width - canvas.width / 2; // random x
     this.y = Math.random() * canvas.height - canvas.height / 2; // random y
     this.px, this.py;
-    this.z = Math.random() * 4; // random z
+    this.z = Math.random() * 1; // random z
     this.color = colors[Math.floor(Math.random() * colors.length)]; // random color from the array
   }
   
@@ -72,7 +92,7 @@ let speed = 0.02;
 let stars = [];
 
 // Create 1500 stars (objects)
-for (let i = 0; i < 1500; i++) stars.push(new Star());
+for (let i = 0; i < 2000; i++) stars.push(new Star());
 
 c.fillStyle = 'rgba(255, 255, 255,0.3)'; //4번째 숫자 건들면 끝 꼬리 길이 달라짐
 c.translate(canvas.width / 2, canvas.height / 2);
