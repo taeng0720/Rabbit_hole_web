@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐰 Rabbithole Company</title>
+    <link rel="icon" href="Resource/rabbithole_logo.NQpXfqsU_Z2osd19.webp">
+    <script src="Js/index.js"></script>
+    <link rel="stylesheet" href="Css/index.css">
+</head>
+<body>
+    <canvas id="starField">
+    </canvas>
+    <div class="MainTitle">
+        <p>모두를 위한 <br> 살아있는, <br> 영어교육</p>
+        
+    </div>
+    <script>
+        const canvas = document.getElementById('starField');
+const c = canvas.getContext('2d');
+canvas.width = window.outerWidth; // screen width
+canvas.height = window.outerHeight; // screen height
+
+// Define an array of three colors
+const colors = ['#F2C2CF', '#C9F2EB', '#F2C879'];
+
+class Star {
+  constructor() {
+    // Initializing
+    this.x = Math.random() * canvas.width - canvas.width / 2; // random x
+    this.y = Math.random() * canvas.height - canvas.height / 2; // random y
+    this.px, this.py;
+    this.z = Math.random() * 4; // random z
+    this.color = colors[Math.floor(Math.random() * colors.length)]; // random color from the array
+  }
+  
+  update() {
+    // Stores previous x, y and z and generates new coordinates    
+    this.px = this.x;
+    this.py = this.y;
+    this.z += speed;
+    this.x += this.x * (speed * 0.2) * this.z;
+    this.y += this.y * (speed * 0.2) * this.z;
+    if (this.x > canvas.width / 2 + 50 || this.x < -canvas.width / 2 - 50 || this.y > canvas.height / 2 + 50 || this.y < -canvas.height / 2 - 50) {
+      this.x = Math.random() * canvas.width - canvas.width / 2;
+      this.y = Math.random() * canvas.height - canvas.height / 2;
+      this.px = this.x;
+      this.py = this.y;
+      this.z = 0;
+      this.color = colors[Math.floor(Math.random() * colors.length)]; // reset color when star resets
+    }
+  }
+  
+  // Draws line from x, y to px, py
+  show() {
+    c.strokeStyle = this.color; // use the star's color
+    c.lineWidth = this.z;
+    c.beginPath();
+    c.moveTo(this.x, this.y);
+    c.lineTo(this.px, this.py);
+    c.stroke();
+  }
+}
+
+let speed = 0.02;
+let stars = [];
+
+// Create 1500 stars (objects)
+for (let i = 0; i < 1500; i++) stars.push(new Star());
+
+c.fillStyle = 'rgba(255, 255, 255,0.3)'; //4번째 숫자 건들면 끝 꼬리 길이 달라짐
+c.translate(canvas.width / 2, canvas.height / 2);
+
+function draw() {
+  // Create rectangle
+  c.fillRect(-canvas.width / 2, -canvas.height / 2, canvas.width, canvas.height);
+  for (let s of stars) {
+    s.update();
+    s.show();
+  }
+  // Infinite call to draw
+  requestAnimationFrame(draw);
+}
+
+draw();
+
+    </script>
+</body>
+</html>
