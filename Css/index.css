@@ -7,14 +7,38 @@ canvas {
     position: fixed;
     display: flex;
     z-index: -1;
+    margin-top: -200px;
 }
 .MainTitle {
-  width: auto;
-  font-size: 60px;
-  font-weight: bold;
-  background: linear-gradient(-90deg, #9333ea, #ef4444);
+  margin: auto;
+  width: 1000px;
+  text-align: center;
+  margin-top: 200px;
+}
+.MainTitle p{
+  font-size: 100px;
+  font-weight:1000;
+  height: auto;
+  margin-top: 0px;
+  background: linear-gradient(to bottom right, #7033ea 30%, #ef4444);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text; /* 일부 브라우저에서도 적용될 수 있도록 추가 */
   -webkit-text-fill-color: transparent; /* 웹킷 브라우저에서 투명 텍스트 색상 설정 */
+  line-height: 100px;
+  letter-spacing: -5px;
+}
+.MainTitle_left{
+  float: left;
+  margin-left: 100px;
+}
+.MainTitle_left img{
+  width: 150px;
+}
+.MainTitle_right{
+  float: right;
+  margin-right: 50px;
+}
+.MainTitle_right img{
+  width: 700px;
 }
