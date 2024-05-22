@@ -5,17 +5,19 @@
 }
 @keyframes ani{
   0%{transform:translate(0,0);}
-  100%{transform:translate(0,25px);}
+  100%{transform:translate(0,-25px);}
 }
 
 
 canvas {
     background-color: white;
     width: 102%;
-    display: flex;
     height: 900px;
+    position:fixed;
+    display:flex;
     z-index: -1;
     margin-top: -200px;
+    margin-bottom: 1px solid red;
 }
 .MainTitle {
   margin: auto;
@@ -70,7 +72,7 @@ canvas {
   margin-left: 10px;
 }
 .bottom_body{
-  width: 100%;
+  width: 100.5%;
   height: 2000px;
   background-color: rgb(245, 245, 245);
 }
