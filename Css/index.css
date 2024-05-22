@@ -12,8 +12,8 @@
 canvas {
     background-color: white;
     width: 102%;
-    position:fixed;
-    display:flex;
+    display: flex;
+    height: 900px;
     z-index: -1;
     margin-top: -200px;
 }
