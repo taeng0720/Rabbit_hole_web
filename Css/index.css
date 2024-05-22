@@ -1,9 +1,17 @@
-body{
-  font-family: Inter Variable,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+@font-face {
+  font-family: 'Pretendard';
+  src:url('/Resource/fonts/Pretendard-ExtraBold.woff') format('woff');
+  font-weight: 400;
 }
+@keyframes ani{
+  0%{transform:translate(0,0);}
+  100%{transform:translate(0,25px);}
+}
+
+
 canvas {
     background-color: white;
-    width: 100%;
+    width: 102%;
     position:fixed;
     display:flex;
     z-index: -1;
@@ -16,11 +24,12 @@ canvas {
   margin-top: 200px;
 }
 .MainTitle p{
+  font-family: "Pretendard", sans-serif;
   font-size: 100px;
   font-weight:1000;
   height: auto;
   margin-top: 10px;
-  background: linear-gradient(to bottom right, #6d2fe9 40%, #ef4444);
+  background: linear-gradient(to bottom right,#4f46e5, #9333ea, #ef4444);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text; /* 일부 브라우저에서도 적용될 수 있도록 추가 */
@@ -38,8 +47,10 @@ canvas {
 .MainTitle_right{
   float: right;
   margin-right: -100px;
+  animation:ani 3s infinite alternate;
 }
 .MainTitle_right img{
+  margin-top: 10px;
   width: 500px;
 }
 .bottom{
