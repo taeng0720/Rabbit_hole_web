@@ -1,15 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const start = 600; // 600px 만큼 내려갔을 때 버튼이 나타나도록 하기 위한 변수 선언
-    const collectBtn = document.querySelector(''); // HTML에서 적용될 대상 불러오기 
+    const start = 700; // 600px 만큼 내려갔을 때 버튼이 나타나도록 하기 위한 변수 선언
+    const collectBtn = document.querySelector('.div_scroll'); // HTML에서 적용될 대상 불러오기 
 
     window.addEventListener('scroll', function () { // scroll 이벤트가 발생했을 때
         const scrollTop = window.pageYOffset; // 스크롤된 값을 이용하기 위한 변수 선언
 
         if (scrollTop > start) { // 스크롤 탑의 값이 start보다 클 경우 -> 스크롤을 일정 범위 이상 내렸을 때
-            collectBtn.style.display = "block"; // 요소를 보이게 함
+            collectBtn.style.borderBottom = "1px solid black"; // 요소를 보이게 함
+            collectBtn.style.backgroundColor = "rgb(245, 245, 245)";
             console.log("안녕?");
         } else {
-            collectBtn.style.display = "block"; // 요소를 숨김
+            collectBtn.style.borderBottom = ""; 
+            collectBtn.style.backgroundColor = ""; 
         }
     });
 
