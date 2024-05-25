@@ -8,10 +8,13 @@ document.addEventListener('DOMContentLoaded', function() {
         if (scrollTop > start) { // 스크롤 탑의 값이 start보다 클 경우 -> 스크롤을 일정 범위 이상 내렸을 때
             collectBtn.style.borderBottom = "1px solid black"; // 요소를 보이게 함
             collectBtn.style.backgroundColor = "rgb(245, 245, 245)";
-            console.log("안녕?");
+            collectBtn.style.display = "flex";
+            collectBtn.style.position = "sticky";
         } else {
             collectBtn.style.borderBottom = ""; 
             collectBtn.style.backgroundColor = ""; 
+            collectBtn.style.display = "";
+            collectBtn.style.position = "";
         }
     });
 
