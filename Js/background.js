@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             collectBtn.style.backgroundColor = "rgb(252, 252, 252)";
             collectBtn.style.display = "flex";
             collectBtn.style.position = "sticky";
-            nav_R.style.paddingRight = "10px";
+            nav_R.style.paddingRight = "30px";
             icon.style.paddingRight = "-40px";
             icon.style.opacity = "1";
         } else {

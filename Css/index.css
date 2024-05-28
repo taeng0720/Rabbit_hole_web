@@ -122,7 +122,7 @@ canvas {
 .nav_right{
   padding-top: 10px;
   display: inline-flex;
-  margin-right: 25px;
+  margin-right: 0px;
   transition-timing-function: ease;
   transition-duration: 0.5s;
 }
