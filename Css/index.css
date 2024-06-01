@@ -196,8 +196,8 @@ footer{
   color: #EC4899;
 }
 .download{
-  width: 200px;
-  height: 60px;
+  width: 220px;
+  height: 62px;
   font-size: 19px;
   border: 2px solid black;
   text-align: center;
@@ -217,4 +217,7 @@ footer{
   width: 220px;
   display: block;
   margin: auto;
+}
+.bottom_second_title{
+  background: linear-gradient(to bottom right,#4f46e5, #9333ea, #ef4444);
 }
