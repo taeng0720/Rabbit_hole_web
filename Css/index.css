@@ -219,5 +219,20 @@ footer{
   margin: auto;
 }
 .bottom_second_title{
+  padding-top: 12px;
   background: linear-gradient(to bottom right,#4f46e5, #9333ea, #ef4444);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  font-size: 70px;
+  width: 640px;
+  height: 75px;
+  margin: auto;
+  margin-top: 100px;
+  font-weight: 900;
+  display: block;
+  font-family: "Pretendard", sans-serif;
+  letter-spacing: -2px;
+  text-align: center;
 }
