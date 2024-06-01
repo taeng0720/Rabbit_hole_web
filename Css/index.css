@@ -236,3 +236,6 @@ footer{
   letter-spacing: -2px;
   text-align: center;
 }
+::selection {  
+  color: #ffffff;  background-color: #EC4899;
+}
