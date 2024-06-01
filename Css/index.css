@@ -181,7 +181,11 @@ footer{
   height: 300px;
   background-color: rgb(254, 254, 254);
 }
-.bottom_main{
+.bottom_content{
+  padding: 0px;
+  margin-top: 50px;
+  font-size: 34px;
+  font-weight: 200;
   font-family: "Pretendard", sans-serif;
   text-align: center;
 }
