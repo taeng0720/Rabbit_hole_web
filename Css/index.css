@@ -32,6 +32,7 @@ canvas {
     margin-top: -200px;
     margin-bottom: 1px solid red;
 }
+
 .MainTitle {
   margin: auto;
   width: 800px;
@@ -53,6 +54,7 @@ canvas {
   line-height: 100px;
   letter-spacing: -5px;
 }
+
 .MainTitle_left{
   float: left;
   margin-left: -30px;
@@ -60,6 +62,7 @@ canvas {
 .MainTitle_left img{
   width: 170px;
 }
+
 .MainTitle_right{
   float: right;
   margin-right: -100px;
@@ -70,11 +73,13 @@ canvas {
   width: 490px;
   margin-right: 15px;
 }
+
 .bottom{
   width: 100%;
   margin-top: 600px;
   height: 1200px;
 }
+
 .bottom_nav{
   display: inline-flex;
   width: 100%;
@@ -88,6 +93,7 @@ canvas {
   margin-left: 10px;
   border-bottom: 1px solid #dadada;
 }
+
 .bottom_body{
   width: 100.5%;
   height: 100%;
@@ -102,6 +108,7 @@ canvas {
   margin: auto;
   display: block;
 }
+
 .bottom_main{
   padding-top: 100px;
   height: 100%;
