@@ -25,8 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
             icon.style.opacity = "0";
         }
     });
-
-    // 초기에는 요소를 숨긴 상태로 시작할 수 있음
     collectBtn.style.display = "block";
 });
 const canvas = document.getElementById('starField');
