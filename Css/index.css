@@ -196,7 +196,11 @@ footer{
   color: #EC4899;
 }
 .download{
-  
+  width: 200px;
+  border: 1px solid black;
+  display: block;
+  text-align: center;
+  margin: auto;
 }
 .mdi--file-document-outline {
   display: inline-block;
