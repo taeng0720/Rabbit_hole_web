@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     collectBtn.style.display = "block";
+    icon.style.opacity = "0";
 });
 const canvas = document.getElementById('starField');
 const c = canvas.getContext('2d');
