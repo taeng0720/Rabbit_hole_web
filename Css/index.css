@@ -239,3 +239,19 @@ footer{
 ::selection {  
   color: #ffffff;  background-color: #EC4899;
 }
+.all_skill_box{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+.skill_box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 500px;
+  list-style:none;
+}
