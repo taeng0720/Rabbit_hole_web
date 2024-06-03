@@ -241,17 +241,17 @@ footer{
 }
 .all_skill_box{
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  justify-items: center;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  justify-items:center;
   margin: 0;
   padding: 0;
-  justify-content: center;
+  justify-content:center;
 }
 .skill_box{
   display: flex;
   align-items: center;
   flex-direction: column;
   border: 1px solid black;
-  width: 500px;
+  width: 300px;
   list-style:none;
 }
