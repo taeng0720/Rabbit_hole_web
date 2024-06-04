@@ -1,21 +1,28 @@
-#include <stdio.h>
+#include<stdio.h> 
+#include<math.h>
 
-int main()
+int main() 
 {
-    int n, m, a, b, c;
-    int array[101] = {0,};
-    scanf("%d %d", &n, &m);
-    for(int i = 0; i < m; i++)
-    {
-        scanf("%d %d %d", &a,&b,&c);
-        for(int i = a; i <= b; i++)
-        {
-            array[i] = c;
-        }
-    }
-    for(int i = 1; i<=n;i++)
-    {
-        printf("%d ",array[i]);
-    }
-    return 0;
+    /*
+   char a,b,c,d,e,f,g;
+   int h;
+   scanf("%c%c%c%c%c%c%c%d",&a,&b,&c,&d,&e,&f,&g,&h);
+   if(h == 1)
+   {
+        printf("19%c%c/%c%c/%c%c M",a,b,c,d,e,f);
+   }
+   else if(h == 2)
+   {
+        printf("19%c%c/%c%c/%c%c F",a,b,c,d,e,f);
+   }
+   else if(h == 3)
+   {
+        printf("20%c%c/%c%c/%c%c M",a,b,c,d,e,f);
+   }
+   else if(h == 4)
+   {
+        printf("20%c%c/%c%c/%c%c F",a,b,c,d,e,f);
+   }
+   */
+  printf("%d", 10*10*10*10*10*10*10*10*10);
 }
