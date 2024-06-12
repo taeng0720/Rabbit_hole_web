@@ -255,3 +255,7 @@ footer{
   width: 400px;
   list-style:none;
 }
+.skill_content{
+  align-content: center;
+  text-align: center;
+}
