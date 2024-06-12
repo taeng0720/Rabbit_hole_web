@@ -254,8 +254,11 @@ footer{
   border: 1px solid black;
   width: 400px;
   list-style:none;
+  background-color: #f3f4f6;
 }
 .skill_content{
   align-content: center;
   text-align: center;
+  color: #353535;
+  font-weight: 400;
 }
