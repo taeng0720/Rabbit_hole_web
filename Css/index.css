@@ -241,7 +241,7 @@ footer{
 }
 .all_skill_box{
   display: grid;
-  grid-template-columns: repeat(3, minmax(0,1fr));
+  grid-template-columns: repeat(3, minmax(0,0.2767fr));
   justify-items:center;
   margin: 0;
   padding: 0;
@@ -252,6 +252,6 @@ footer{
   align-items: center;
   flex-direction: column;
   border: 1px solid black;
-  width: 300px;
+  width: 400px;
   list-style:none;
 }
