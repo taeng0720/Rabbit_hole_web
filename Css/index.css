@@ -273,11 +273,16 @@ footer{
   color: #353535;
   font-weight: 400;
   margin-top: -2px;
+  width: 100%;
 }
 .skill_title{
-  font-size: 30px;
-  font-weight: 900;
+  align-content: center;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
   margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
 }
 .mdi--account-voice {
   display: inline-block;
@@ -311,9 +316,9 @@ footer{
 }
 .akar-icons--vr-ar {
   display: inline-block;
-  width: 2.5em;
-  height: 2.5em;
-  margin-top:8px;
+  width: 2.3em;
+  height: 2.3em;
+  margin-top:11px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-left: 20%;
@@ -340,7 +345,7 @@ footer{
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='m23 11.5l-3.05-1.13c-.26-1.15-.91-1.81-.91-1.81a4.19 4.19 0 0 0-5.93 0l-1.48 1.48L5 3c-1 4 0 8 2.45 11.22L2 19.5s8.89 2 14.07-2.05c2.76-2.16 3.38-3.42 3.77-4.75zm-5.29.22c-.39.39-1.03.39-1.42 0a.996.996 0 0 1 0-1.41c.39-.39 1.03-.39 1.42 0s.39 1.02 0 1.41'/%3E%3C/svg%3E");
 }
 .border_title{
-  margin-top: 10px;
+  margin-top: 20px;
   border-radius: 50%;
 
   width: 60px;
