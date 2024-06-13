@@ -251,7 +251,16 @@ footer{
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: 1px solid black;
+  border: 2px solid rgb(154, 154, 154);
+  width: 400px;
+  list-style:none;
+  background-color: #f3f4f6;
+}
+.skill_box_second{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-left: 2px solid rgb(154, 154, 154);
   width: 400px;
   list-style:none;
   background-color: #f3f4f6;
@@ -261,4 +270,29 @@ footer{
   text-align: center;
   color: #353535;
   font-weight: 400;
+  margin-top: -2px;
+}
+.skill_title{
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.mdi--account-voice {
+  display: inline-block;
+  width: 2.5em;
+  height: 2.5em;
+  margin-top:8px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 20%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M9 5a4 4 0 0 1 4 4a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4m0 10c2.67 0 8 1.34 8 4v2H1v-2c0-2.66 5.33-4 8-4m7.76-9.64c2.02 2.2 2.02 5.25 0 7.27l-1.68-1.69c.84-1.18.84-2.71 0-3.89zM20.07 2c3.93 4.05 3.9 10.11 0 14l-1.63-1.63c2.77-3.18 2.77-7.72 0-10.74z'/%3E%3C/svg%3E");
+}
+.border_title{
+  margin-top: 10px;
+  border-radius: 50%;
+
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  align-items: center;
 }
