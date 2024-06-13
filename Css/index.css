@@ -281,9 +281,9 @@ footer{
 }
 .mdi--account-voice {
   display: inline-block;
-  width: 2.5em;
-  height: 2.5em;
-  margin-top:8px;
+  width: 2.3em;
+  height: 2.3em;
+  margin-top:11px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-left: 20%;
@@ -291,9 +291,9 @@ footer{
 }
 .cil--animal {
   display: inline-block;
-  width: 2.5em;
-  height: 2.5em;
-  margin-top:8px;
+  width: 2.3em;
+  height: 2.3em;
+  margin-top:11px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-left: 20%;
@@ -301,13 +301,12 @@ footer{
 }
 .mdi--shop-outline {
   display: inline-block;
-  width: 2.5em;
-  height: 2.5em;
-  margin-top:8px;
+  width: 2.3em;
+  height: 2.3em;
+  margin-top:11px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-left: 20%;
-  font-weight: 600;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='m18.36 9l.6 3H5.04l.6-3zM20 4H4v2h16zm0 3H4l-1 5v2h1v6h10v-6h4v6h2v-6h1v-2zM6 18v-4h6v4z'/%3E%3C/svg%3E");
 }
 .akar-icons--vr-ar {
@@ -322,9 +321,9 @@ footer{
 }
 .mdi--search-web {
   display: inline-block;
-  width: 2.5em;
-  height: 2.5em;
-  margin-top:8px;
+  width: 2.3em;
+  height: 2.3em;
+  margin-top:11px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-left: 20%;
@@ -332,9 +331,9 @@ footer{
 }
 .mdi--bird {
   display: inline-block;
-  width: 2.5em;
-  height: 2.5em;
-  margin-top:8px;
+  width: 2.3em;
+  height: 2.3em;
+  margin-top:11px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-left: 20%;
