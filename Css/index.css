@@ -398,14 +398,18 @@ footer{
 }
 
 .image_box{
-  width: 400px;
+  width: 350px;
   height: 200px;
   object-fit:cover;
+  overflow:hidden;
+  position: relative;
 }
 .image_box img{
   width: 350px;
   height: 200px;
+  transition:  all ease 0.3s;
   &:hover{
-    
+    transform: scale(1.15, 1.15);
+    filter:opacity(50%);
   }
 }
