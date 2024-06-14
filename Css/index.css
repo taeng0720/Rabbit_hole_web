@@ -405,9 +405,9 @@ footer{
   position: relative;
 }
 .image_box img{
-  width: 350px;
-  height: 200px;
-  transition:  all ease 0.3s;
+  width: inherit;
+  height: inherit;
+  transition: all ease 0.3s;
   &:hover{
     transform: scale(1.15, 1.15);
     filter:opacity(50%);
@@ -425,7 +425,6 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(0, 0, 0, 0.5);
   opacity: 0;
   transition: opacity 0.2s;
 }
