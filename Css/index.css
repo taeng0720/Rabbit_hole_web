@@ -387,6 +387,15 @@ footer{
   border: 2px solid black;
   align-items: center;
 }
+.all_image_box{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,0.2767fr));
+  justify-items:center;
+  margin: 0;
+  padding: 0;
+  justify-content:center;
+}
+
 .image_box{
   
 }
