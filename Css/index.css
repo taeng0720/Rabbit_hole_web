@@ -408,13 +408,10 @@ footer{
   width: inherit;
   height: inherit;
   transition: all ease 0.3s;
-  &:hover{
-    transform: scale(1.15, 1.15);
-    filter:opacity(50%);
-    .overlay{
-      opacity: 1;
-    }
-  }
+}
+.overlay:hover .image_filter{
+  transform: scale(1.15, 1.15);
+  filter:opacity(50%);
 }
 .overlay{
   position: absolute;
@@ -427,4 +424,7 @@ footer{
   align-items: center;
   opacity: 0;
   transition: opacity 0.2s;
+  &:hover{
+    opacity: 1;
+  }
 }
