@@ -96,7 +96,7 @@ canvas {
 
 .bottom_body{
   width: 100.5%;
-  height: 3000px;
+  height: 4000px;
   background-color: rgb(254, 254, 254);
   align-items: center;
   margin: auto;
@@ -389,13 +389,23 @@ footer{
 }
 .all_image_box{
   display: grid;
-  grid-template-columns: repeat(3, minmax(0,0.2767fr));
+  grid-template-columns: repeat(3, minmax(0,0.255fr));
   justify-items:center;
   margin: 0;
   padding: 0;
   justify-content:center;
+  margin-top: 15px;
 }
 
 .image_box{
-  
+  width: 400px;
+  height: 200px;
+  object-fit:cover;
+}
+.image_box img{
+  width: 350px;
+  height: 200px;
+  &:hover{
+    
+  }
 }
