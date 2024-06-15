@@ -427,15 +427,22 @@ footer{
       transform: scale(1.25, 1.25);
       filter: opacity(50%);
     }
-    p{
+    .imame_title, .showcase_button{
       opacity: 1;
     }
   }
 }
-.overlay p{
+.imame_title{
   width: 100%;
-  height: 100%;
+  height: 100px;
   text-align: center;
   opacity: 0;
   transition: opacity 0.2s;
+  display: block;
+}
+.showcase_button{
+  height: 100px;
+  width: 100%;
+  display: block;
+  border: 1px solid black;
 }
