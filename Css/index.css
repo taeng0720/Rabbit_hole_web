@@ -451,3 +451,21 @@ footer{
   display: inline;
   border: 1px solid black;
 }
+footer{
+  width: 102%;
+  height: 250px;
+  overflow: hidden;
+  margin-bottom: -10px;
+}
+footer img{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  filter: opacity(40%);
+}
+.image_container{
+  position: relative;
+}
