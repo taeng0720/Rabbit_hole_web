@@ -405,26 +405,34 @@ footer{
   position: relative;
 }
 .image_box img{
-  width: inherit;
-  height: inherit;
+  width: 360px;
+  height: 200px;
   transition: all ease 0.3s;
 }
-.overlay:hover .image_filter{
-  transform: scale(1.15, 1.15);
-  filter:opacity(50%);
-}
 .overlay{
-  position: absolute;
   top: 0;
   left: 0;
-  width: inherit;
-  height: inherit;
+  width: 350px;
+  height: 200px;
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
-  opacity: 0;
-  transition: opacity 0.2s;
   &:hover{
     opacity: 1;
+    img{
+      transform: scale(1.15, 1.15);
+      filter: opacity(50%);
+    }
+    p{
+      opacity: 1;
+    }
   }
+}
+.overlay p{
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.2s;
 }
