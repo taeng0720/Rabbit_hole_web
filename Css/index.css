@@ -405,15 +405,16 @@ footer{
   position: relative;
 }
 .image_box img{
-  width: 360px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   transition: all ease 0.3s;
+  transform: scale(1.10,1.10);
 }
 .overlay{
   top: 0;
   left: 0;
-  width: 350px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -421,7 +422,7 @@ footer{
   &:hover{
     opacity: 1;
     img{
-      transform: scale(1.15, 1.15);
+      transform: scale(1.25, 1.25);
       filter: opacity(50%);
     }
     p{
@@ -430,8 +431,8 @@ footer{
   }
 }
 .overlay p{
-  width: 350px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   text-align: center;
   opacity: 0;
   transition: opacity 0.2s;
