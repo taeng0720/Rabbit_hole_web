@@ -425,7 +425,7 @@ footer{
     opacity: 1;
     img{
       transform: scale(1.25, 1.25);
-      filter: opacity(50%);
+      filter: opacity(40%);
     }
     .imame_title, .showcase_button{
       opacity: 1;
@@ -433,16 +433,21 @@ footer{
   }
 }
 .imame_title{
-  width: 100%;
+  width: 350px;
   height: 100px;
   text-align: center;
   opacity: 0;
   transition: opacity 0.2s;
-  display: block;
+  display: inline;
+  font-size: 25px;
+  font-weight: 900;
+  z-index: 10;
+  position: static;
 }
 .showcase_button{
+  position: static;
   height: 100px;
-  width: 100%;
-  display: block;
+  width: 350px;
+  display: inline;
   border: 1px solid black;
 }
