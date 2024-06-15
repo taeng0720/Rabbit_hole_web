@@ -389,7 +389,7 @@ footer{
 }
 .all_image_box{
   display: grid;
-  grid-template-columns: repeat(3, minmax(0,0.255fr));
+  grid-template-columns: repeat(3, minmax(0,0.265fr));
   justify-items:center;
   margin: 0;
   padding: 0;
@@ -398,7 +398,7 @@ footer{
 }
 
 .image_box{
-  width: 350px;
+  width: 370px;
   height: 200px;
   object-fit:cover;
   overflow:hidden;
