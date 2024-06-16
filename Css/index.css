@@ -468,4 +468,33 @@ footer img{
 }
 .image_container{
   position: relative;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.right_more{
+  margin-left: 1200px;
+  color: #9333ea;
+}
+.fotter_box{
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 60px;
+  font-weight: 700;
+  text-align: center;
+  height: 60px;
+  margin: auto;
+  margin-top: 90px;
+  z-index: 10;
+  transition: ease 0.2s;
+  &:hover{
+    border: 2px solid #EC4899;
+    color: #EC4899;
+  }
+}
+.fotter_all_box{
+  width: 100%;
+  grid-template-columns: repeat(3, minmax(0,0.05fr));
+  justify-content: center;
+  display: grid;
 }
